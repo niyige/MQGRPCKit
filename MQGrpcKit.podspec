@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/niyige/MQGRPCKit"
   s.license              = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "xcode" => "xcode@apple.com" }
- # s.social_media_url   = "https://www.manqian.com/"
+  s.social_media_url   = "https://weibo.com/kuaifuwo"
 
   s.source       = { :git => "https://github.com/niyige/MQGRPCKit.git", :tag => s.version }
-  s.source_files  = "MQGRPCKit/*.{h,m}"
+  #s.source_files  = "MQGRPCKit/*.{h,m}"
 
   s.framework  = "UIKit","Foundation", "SwiftGRPC"
   s.swift_version = '4.2'
